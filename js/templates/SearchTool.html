@@ -1,0 +1,20 @@
+﻿<div class="${baseClass}" style="display: none;">
+    <span class="${baseClass}-close" data-dojo-attach-event="ondijitclick:hide">X</span>
+    <h2>Vyhľadať</h2>
+<p>Prvé načítanie údajov v comboboxe trvá pár sekúnd kvôli serveru TUZVO. Po prvom načítaní by to už malo fungovať v poriadku.</p>
+    <p>
+        Kraj:<br />
+        <input id="regionValue">
+        <button id="execute-btnRegion" class="${baseClass}-execute" data-dojo-type="dijit/form/Button" data-dojo-attach-event="ondijitclick:executeQueryRegion">Zoom</button><br />
+    </p>
+    <p>
+        Okres:<br />
+        <input id="districtValue">
+        <button id="execute-btnDistrict" class="${baseClass}-execute" data-dojo-type="dijit/form/Button" data-dojo-attach-event="ondijitclick:executeQueryDistrict">Zoom</button><br />
+    </p>
+    <p>
+        Obec:<br />
+        <input id="townValue">
+        <button id="execute-btnTown" class="${baseClass}-execute" data-dojo-type="dijit/form/Button" data-dojo-attach-event="ondijitclick:executeQueryTown">Zoom</button>
+    </p>
+</div>
